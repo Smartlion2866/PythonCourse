@@ -14,8 +14,14 @@ print(first_module.valor_pi)
 
 valor_float = random.uniform(1, 11)
 valor_entero = math.trunc(valor_float)
-print(valor_entero)
+
 if valor_entero == 1:
     print("Heads")
 elif valor_entero == 10:
     print("Tails")
+
+random_entero = random.randint(0, 1)
+if random_entero == 0:
+    print("Heads randint")
+elif random_entero == 1:
+    print("Tails randint")
